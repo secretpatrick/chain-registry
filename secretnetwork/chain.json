@@ -36,12 +36,12 @@
   },
   "codebase": {
     "git_repo": "https://github.com/scrtlabs/SecretNetwork",
-    "recommended_version": "v1.12.1",
+    "recommended_version": "v1.12.3",
     "compatible_versions": [
-      "v1.12.1"
+      "v1.12.3"
     ],
     "binaries": {
-      "linux/amd64": "https://github.com/scrtlabs/SecretNetwork/releases/download/v1.12.1/secretnetwork_1.12.1_mainnet_goleveldb_amd64.deb"
+      "linux/amd64": "https://github.com/scrtlabs/SecretNetwork/releases/download/v1.12.3-placeholder/secretnetwork_1.12.3_mainnet_goleveldb_amd64.deb"
     },
     "genesis": {
       "genesis_url": "https://github.com/scrtlabs/SecretNetwork/releases/download/v1.2.0/genesis.json"
@@ -166,7 +166,7 @@
     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.png",
     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.svg"
   },
-  "description": "Secret Network is the first blockchain with customizable privacy. You get to choose what you share, with whom, and how. This protects users, and empowers developers to build a better Web3.",
+  "description": "The Confidential Computing Layer of Web3. Secret Network enables developers to build decentralized applications with encrypted data, both natively on Secret and on other blockchains through cross-chain communication, unlocking powerful new use-cases for Web3.",
   "peers": {
     "seeds": [
       {
@@ -218,6 +218,10 @@
       {
         "address": "https://grpc.mainnet.secretsaturn.net",
         "provider": "🪐 𝕊ecret 𝕊aturn"
+      },
+      {
+        "address": "https://secretnetwork-grpc.lavenderfive.com:443",
+        "provider": "Lavender.Five Nodes 🐝"
       }
     ],
     "rpc": [
@@ -234,7 +238,7 @@
         "provider": "1RPC - Automata Network"
       },
       {
-        "address": "https://secretnetwork-rpc.highstakes.ch",
+        "address": "https://secretnetwork-rpc.highstakes.ch:26657",
         "provider": "High Stakes 🇨🇭"
       },
       {
